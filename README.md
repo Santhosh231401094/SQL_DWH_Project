@@ -1,10 +1,10 @@
 # SQL_DWH_Project
 Building a modern data warehouse with SQL server,including ETL,data modeling,and analytics
 
-📌 Overview
+##📌 Overview                                                                                                                                                                                      
 This project demonstrates a modern Data Warehouse Architecture using Microsoft SQL Server. It leverages a multi-layered structure — Bronze, Silver, and Gold layers — to transform raw data into meaningful insights for BI, reporting, ad-hoc analysis, and machine learning.
 
-🧱 Architecture
+##🧱 Architecture
 📂 Sources
 Data comes from:
 
@@ -16,7 +16,7 @@ Format: CSV Files
 
 Interface: Files placed in a designated folder
 
-🧊 Bronze Layer (Raw Data)
+###🧊 Bronze Layer (Raw Data)
 Object Type: Tables
 
 Load Type:
@@ -29,7 +29,7 @@ Transformations: None (Raw as-is)
 
 Data Model: None
 
-🥈 Silver Layer (Cleaned Data)
+###🥈 Silver Layer (Cleaned Data)
 Object Type: Tables
 
 Load Type:
@@ -52,7 +52,7 @@ Data Enrichment
 
 Data Model: None
 
-🥇 Gold Layer (Business-Ready Data)
+###🥇 Gold Layer (Business-Ready Data)
 Object Type: Views
 
 Transformations:
@@ -71,7 +71,7 @@ Flat Table
 
 Aggregated Table
 
-🚀 Consumption
+##🚀 Consumption
 The cleaned and aggregated data from the Gold Layer can be used for:
 
 📊 BI & Reporting (e.g., Power BI, SSRS)
