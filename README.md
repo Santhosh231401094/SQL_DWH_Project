@@ -6,7 +6,7 @@ This project demonstrates a modern Data Warehouse Architecture using Microsoft S
 
 ## 🧱 Architecture
 
-![DWH_ARCHITECTURE](https://github.com/user-attachments/assets/895567ea-b0c3-4dd2-9399-b58e7fe5f9cc)
+![DWH_ARCHITECTURE](https://github.com/user-attachments/assets/e52102a1-59ff-48ce-83de-f03f89078d51)
 
 
 📂 Sources
