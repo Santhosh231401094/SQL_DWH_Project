@@ -5,6 +5,9 @@ Building a modern data warehouse with SQL server,including ETL,data modeling,and
 This project demonstrates a modern Data Warehouse Architecture using Microsoft SQL Server. It leverages a multi-layered structure — Bronze, Silver, and Gold layers — to transform raw data into meaningful insights for BI, reporting, ad-hoc analysis, and machine learning.
 
 ## 🧱 Architecture
+
+![Uploading DWH_ARCHITECTURE.png…]()
+
 📂 Sources
 Data comes from:
 
