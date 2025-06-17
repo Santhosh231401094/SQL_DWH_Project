@@ -1,4 +1,26 @@
 --duplicates
+/*
+===========================================================
+Script: Quality Checks – Silver Schema
+===========================================================
+
+Purpose:
+This script ensures the data loaded into the Silver schema is clean, accurate,
+and follows formatting and consistency standards.
+
+Checks Included:
+✔ NULL or duplicate values in primary keys  
+✔ Unwanted spaces in string fields  
+✔ Standardized and consistent data  
+✔ Invalid date ranges or sequences  
+✔ Data consistency between related fields
+
+Usage Notes:
+- Run this script after loading the Silver Layer
+- Review and resolve any records returned during the checks
+
+===========================================================
+*/
 SELECT
 cst_id,COUNT(*)
 FROM silver.crm_cust_info
