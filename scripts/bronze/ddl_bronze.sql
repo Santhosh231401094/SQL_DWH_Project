@@ -1,4 +1,28 @@
 --source:crm
+/*
+===========================================================
+DDL Script: Create Bronze Tables
+===========================================================
+
+Purpose:
+This script defines the base-level DDL structure for tables in the Bronze schema.
+It drops existing Bronze tables (if present) and recreates them from scratch.
+
+When to use:
+✔ When setting up the initial Bronze layer  
+✔ During redefinition of raw data capture structure  
+✔ To align raw table structures before ETL processing
+
+Actions Performed:
+✔ DROP TABLE if it already exists  
+✔ CREATE TABLE under the Bronze schema with required raw data fields
+
+Usage Notes:
+- Run this before ingesting raw data into Bronze tables
+- These tables typically store unprocessed or minimally processed data
+
+===========================================================
+*/
 
 IF OBJECT_ID('bronze.crm_cust_info','U') IS NOT NULL
 DROP TABLE bronze.crm_cust_info;
