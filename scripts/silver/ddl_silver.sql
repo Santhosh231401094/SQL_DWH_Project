@@ -1,4 +1,28 @@
 -- SILVER LAYER
+/*
+===========================================================
+DDL Script: Create Silver Tables
+===========================================================
+
+Purpose:
+This script defines the DDL structure for Silver schema tables.
+It drops the existing tables (if they exist) and recreates them.
+
+When to use:
+✔ When you want to re-define the table structure in the Silver layer  
+✔ Useful during schema redesign or initial setup  
+✔ Mirrors structure from Bronze, but may include data model improvements
+
+Actions Performed:
+✔ DROP TABLE if already exists  
+✔ CREATE TABLE with required columns and data types under the Silver schema
+
+Usage Notes:
+- Run this before loading data into Silver tables
+- Ensure no active dependencies before dropping tables
+
+===========================================================
+*/
 
 
 
