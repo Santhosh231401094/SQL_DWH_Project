@@ -1,6 +1,34 @@
-/*Creating a stored procedure and doing bulk insert,adding some naming conventions and load durations for understanding and readability and with a try catch block to handle errors */
+/*
+===========================================================
+Stored Procedure: Load Bronze Layer (External CSVs -> Bronze)
+===========================================================
 
-EXEC bronze.load_bronze
+Purpose:
+This stored procedure loads raw data into Bronze schema tables using BULK INSERT
+from external CSV files exported from CRM and ERP systems.
+
+Main Tasks:
+✔ Truncate existing Bronze tables  
+✔ Use BULK INSERT to load data from CSV files (CRM & ERP) into Bronze tables
+
+Source Details:
+- CRM CSV File: Contains customer-related raw data  
+- ERP CSV File: Contains transaction and operations-related raw data
+
+BULK INSERT Method:
+Used for high-performance data loading from local or shared paths directly into SQL tables.
+
+Example Usage:
+    EXEC Bronze.load_bronze;
+
+Usage Notes:
+- Run this procedure after obtaining the latest CSVs from CRM and ERP  
+- Ensure file paths, permissions, and formats (delimiter, headers) are properly configured  
+- Recommended to validate file contents before running
+
+===========================================================
+*/
+
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
