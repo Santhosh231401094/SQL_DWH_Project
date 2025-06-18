@@ -1,3 +1,30 @@
+-- GOLD LAYER
+/*
+===========================================================
+DDL Script: Create Gold Views
+===========================================================
+
+Purpose:
+This script defines the business-ready views in the Gold layer.
+It builds dimension and fact views that form a star schema structure,
+enriched and cleaned for reporting, dashboarding, and analytics.
+
+When to use:
+✔ After Silver tables are populated and cleaned  
+✔ To expose data for BI tools and business users  
+✔ For consistent, standardized reporting views  
+
+Actions Performed:
+✔ CREATE VIEW statements under the Gold schema  
+✔ Joins and transformations applied to build dimensions and facts  
+
+Usage Notes:
+- Do not modify Gold views directly; change logic upstream if needed
+- Views are non-materialized; performance depends on underlying Silver tables
+
+===========================================================
+*/
+
 CREATE VIEW gold.dim_customers AS
 SELECT
 ROW_NUMBER() OVER (ORDER BY cst_id) AS customer_key,  --surrogate key(unique identifier needed for a dimension table)
