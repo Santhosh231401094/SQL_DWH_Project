@@ -41,16 +41,16 @@ Architecture diagrams and flows are included in the `/docs` folder.
 
 ## 📂 Folder Structure
 
-SQL_DWH_project/
-├── datasets/              # CRM and ERP source files (.csv)
-├── docs/                  # Draw.io diagrams (architecture, flow, models)
-├── scripts/
-│   ├── bronze/            # Load raw data
-│   ├── silver/            # Clean and join tables
-│   └── gold/              # Star schema views (facts and dimensions)
-├── tests/                 # SQL checks for data integrity & quality
-├── README.md              # Project overview (this file)
-└── requirements.txt       # Tools and dependencies
+SQL_DWH_project/                                                                                                                                                                                                                            
+├── datasets/              # CRM and ERP source files (.csv)                                                                                                                                                                                       
+├── docs/                  # Draw.io diagrams (architecture, flow, models)                                                                                                                                                                    
+├── scripts/                                                                                                                                                                                                                                    
+│   ├── bronze/            # Load raw data                                                                                                                                                                                                      
+│   ├── silver/            # Clean and join tables                                                                                                                                                                                                
+│   └── gold/              # Star schema views (facts and dimensions)                                                                                                                                                                            
+├── tests/                 # SQL checks for data integrity & quality                                                                                                                                                                          
+├── README.md              # Project overview (this file)                                                                                                                                                                                        
+└── requirements.txt       # Tools and dependencies                                                                                                                                                                                            
 
 
 ---
