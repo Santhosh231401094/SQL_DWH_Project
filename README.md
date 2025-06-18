@@ -51,7 +51,7 @@ SQL_DWH_project/
 ├── tests/                 # SQL checks for data integrity & quality                                                                                                                                                                          
 └── README.md              # Project overview (this file)                                                                                                                                                                                        
 
-📒 **See full task board and planning in [Notion]("https://www.notion.so/Data-Warehouse-Project-21374bed2e1280308b7dd897a72d7f7b?source=copy_link")
+📒 **See full task board and planning in [Notion] ("https://www.notion.so/Data-Warehouse-Project-21374bed2e1280308b7dd897a72d7f7b?source=copy_link")
 ---
 
 ## 🛠️ Tech Stack
