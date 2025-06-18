@@ -12,7 +12,7 @@ This project adopts the **Medallion Architecture** for organizing data into prog
 ![DWH_ARCHITECTURE](https://github.com/user-attachments/assets/2022d843-2850-4c5d-b43f-c253d22e73e8)
 
 - **🟤 Bronze Layer**: Raw data directly ingested from CRM and ERP CSV files, minimal processing.
-- **⚪ Silver Layer**: Cleansed and transformed data — joins, standardization, enrichment.
+- **⚪ Silver Layer**: Cleansed and transformed data — cleansing,standardization, enrichment.
 - **🟡 Gold Layer**: Final star schema with **fact** and **dimension views** designed for reporting and analytics.
 
 Architecture diagrams and flows are included in the `/docs` folder.
