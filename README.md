@@ -41,7 +41,16 @@ Architecture diagrams and flows are included in the `/docs` folder.
 
 ## 📂 Folder Structure
 
-
+SQL_DWH_project/
+│
+├── datasets/ # CRM and ERP source files (.csv)
+├── docs/ # Draw.io diagrams (architecture, flow, models)
+├── scripts/
+│ ├── bronze/ # Load raw data
+│ ├── silver/ # Clean and join tables
+│ └── gold/ # Star schema views (facts and dimensions)
+├── tests/ # SQL checks for data integrity & quality
+└── README.md # Project overview (this file)
 
 ---
 
@@ -75,15 +84,6 @@ All data is modeled in a **star schema** to support BI tools and SQL analytics.
 - Verification of gender resolution logic
 
 Sample queries included in `/tests/` folder.
-
----
-
-## 🚀 How to Use
-
-1. Clone this repo and open in VS Code or your SQL IDE
-2. Start by running Bronze → Silver → Gold scripts in order
-3. Use sample queries or build your own analytics
-4. Optionally connect to Power BI for dashboards
 
 ---
 
