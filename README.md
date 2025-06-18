@@ -49,9 +49,7 @@ SQL_DWH_project/
 │   ├── silver/            # Clean and join tables                                                                                                                                                                                                
 │   └── gold/              # Star schema views (facts and dimensions)                                                                                                                                                                            
 ├── tests/                 # SQL checks for data integrity & quality                                                                                                                                                                          
-├── README.md              # Project overview (this file)                                                                                                                                                                                        
-└── requirements.txt       # Tools and dependencies                                                                                                                                                                                            
-
+└── README.md              # Project overview (this file)                                                                                                                                                                                        
 
 ---
 
