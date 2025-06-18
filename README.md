@@ -43,6 +43,58 @@ Architecture diagrams and flows are included in the `/docs` folder.
 
 
 
+---
+
+## 🛠️ Tech Stack
+
+| Tool                  | Use Case                           |
+|-----------------------|------------------------------------|
+| SQL Server Express    | Data warehouse engine              |
+| SSMS                  | Managing SQL development           |
+| GitHub                | Version control and collaboration  |
+| Draw.io               | Diagrams (architecture, data model)|
+| Notion (optional)     | Task tracking, project planning    |
+
+---
+
+## 🔍 Analytical Focus Areas
+
+- **Customer Analysis**: Gender, age group, geography, and engagement
+- **Product Insights**: Category-level performance, maintenance needs, pricing
+- **Sales Metrics**: Orders over time, quantity sold, revenue patterns
+
+All data is modeled in a **star schema** to support BI tools and SQL analytics.
+
+---
+
+## 🧪 Data Quality Checks
+
+- Foreign key relationship validation (fact to dimension)
+- Null checks on surrogate and business keys
+- Duplicate detection in dimension tables
+- Verification of gender resolution logic
+
+Sample queries included in `/tests/` folder.
+
+---
+
+## 🚀 How to Use
+
+1. Clone this repo and open in VS Code or your SQL IDE
+2. Start by running Bronze → Silver → Gold scripts in order
+3. Use sample queries or build your own analytics
+4. Optionally connect to Power BI for dashboards
+
+---
+
+## 🙋‍♂️ Why I Built This
+
+This project was inspired by content from **Baara’s YouTube channel**, but I added my own:
+
+- Query logic improvements
+- Custom data validations
+- Cleaner repo structure
+- Focus on quality checks and metadata
 
 
 
