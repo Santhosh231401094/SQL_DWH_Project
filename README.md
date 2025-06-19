@@ -87,14 +87,7 @@ Sample queries included in `/tests/` folder.
 
 ---
 
-## 🙋‍♂️ Why I Built This
 
-This project was inspired by content from **Baara’s YouTube channel**, but I added my own:
-
-- Query logic improvements
-- Custom data validations
-- Cleaner repo structure
-- Focus on quality checks and metadata
 
 
 
