@@ -1,7 +1,7 @@
 # SQL_DWH_Project
-# 📊 Data Warehouse & Analytics Project (Portfolio)
+# 📊 Data Warehouse Project
 
-Welcome to my **Data Warehouse & Analytics** portfolio project!  
+Welcome to my **Building a Data Warehouse** project!  
 This hands-on project showcases the end-to-end development of a modern data warehouse — from raw data ingestion to business-ready insights — using industry-standard practices and tools.
 
 ---
