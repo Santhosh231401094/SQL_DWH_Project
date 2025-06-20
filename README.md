@@ -40,7 +40,7 @@ Architecture diagrams and flows are included in the `/docs` folder.
 ---
 
 ## 📂 Folder Structure
-
+```
 SQL_DWH_project/                                                                                                                                                                                                                            
 ├── datasets/              # CRM and ERP source files (.csv)                                                                                                                                                                                       
 ├── docs/                  # Draw.io diagrams (architecture, flow, models)                                                                                                                                                                    
@@ -49,9 +49,10 @@ SQL_DWH_project/
 │   ├── silver/            # Clean and join tables                                                                                                                                                                                                
 │   └── gold/              # Star schema views (facts and dimensions)                                                                                                                                                                            
 ├── tests/                 # SQL checks for data integrity & quality                                                                                                                                                                          
-└── README.md              # Project overview (this file)                                                                                                                                                                                        
+└── README.md              # Project overview (this file)
+```                                                                                                                                                                                      
 
-📒 **See full task board and planning in [Notion] ("https://www.notion.so/Data-Warehouse-Project-21374bed2e1280308b7dd897a72d7f7b?source=copy_link")
+📒 **See full task board and planning in [Notion] ``` ("https://www.notion.so/Data-Warehouse-Project-21374bed2e1280308b7dd897a72d7f7b?source=copy_link") ```
 ---
 
 ## 🛠️ Tech Stack
