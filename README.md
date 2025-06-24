@@ -1,8 +1,8 @@
 # SQL_DWH_Project
-# 📊 Data Warehouse Project
+# 📊 Data Warehouse & EDA Project
 
 Welcome to my **Building a Data Warehouse** project!  
-This hands-on project showcases the end-to-end development of a modern data warehouse — from raw data ingestion to business-ready insights — using industry-standard practices and tools.
+This hands-on project showcases the end-to-end development of a modern data warehouse — from raw data ingestion to business-ready insights — using industry-standard practices and tools and perfomed Exploratory Data Analysis(EDA).
 
 ---
 
@@ -87,7 +87,7 @@ All data is modeled in a **star schema** to support BI tools and SQL analytics.
 Sample queries included in `/tests/` folder.
 
 ---
-
+Exploratory Data Analysis(EDA): `/scripts/Exploratory_Data_Analysis.sql`
 
 
 
