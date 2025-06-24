@@ -87,7 +87,7 @@ All data is modeled in a **star schema** to support BI tools and SQL analytics.
 Sample queries included in `/tests/` folder.
 
 ---
-Exploratory Data Analysis(EDA): `/scripts/Exploratory_Data_Analysis.sql`
+Exploratory Data Analysis(EDA): `/scripts/Exploratory_data_analysis.sql`
 
 
 
